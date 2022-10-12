@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__container{
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+
+.header__input{
+    width: 50%;
+    height: 3.5rem;
+    margin: 0 auto;
+    background-color: var(--input-color);
+    color: var(--white);
+    padding: 0 1em;
+    border-radius: 8px;
+    border: none;
+}
+
+.header__input::placeholder{
+    color: var(--white);
+    opacity: 0.64;
+}

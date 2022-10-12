@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url(styles/header.css);
+
+:root{
+    --dark-blue: #051D3B;
+    --dark-blue-button: #5081FB14;
+    --light-blue-button: #5081FB;
+    --white: #FFFFFF;
+    --input-color:#FFFFFF29;
+
+}
+
+body{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    line-height: 24px;
+    background-color: var(--dark-blue);
+    color: var(--white);
+    padding: 2em;
+}
